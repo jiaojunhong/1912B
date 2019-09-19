@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sna1" android:icon="@mipmap/dog" android:title="我的音乐"/>
+    <item android:id="@+id/sna2" android:icon="@mipmap/dog" android:title="我的设置"/>
+    <item android:id="@+id/sna3" android:icon="@mipmap/dog" android:title="我的个性"/>
+    <item android:id="@+id/sna4" android:icon="@mipmap/dog" android:title="我的游戏"/>
+</menu>
