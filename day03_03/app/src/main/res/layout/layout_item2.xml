@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/item2_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@color/colorPrimary"
+        />
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/item2_text1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="11111111111111"
+            />
+        <TextView
+            android:id="@+id/item2_text2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:text="222222222222"
+            />
+        <TextView
+            android:id="@+id/item2_text3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="33333333333"
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/item2_buton"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="20dp"
+            android:text="关注" />
+    </RelativeLayout>
+
+
+</LinearLayout>

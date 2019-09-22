@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/main2_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+        >
+        <ImageView
+            android:id="@+id/main2_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/asd"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="名师"
+            android:textSize="30dp"
+            />
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/main2_toolbar"
+        android:id="@+id/main2_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_below="@id/main2_recycler"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/main2_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_below="@id/main2_tab"
+        android:id="@+id/main2_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
